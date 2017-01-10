@@ -49,7 +49,7 @@ function gentoo_package_mask() {
   local gentoo_package_mask_DIR=`dirname $gentoo_package_mask_FILE`
   cd $HOME/projects/gentoo_package_masking || return $?
   if [ ! -d $gentoo_package_mask_DIR ]; then
-    echo mkdir $gentoo_package_mask_DIR || return $?
+    echorun mkdir $gentoo_package_mask_DIR || return $?
   fi
   echo
   case $gentoo_package_mask_VERSION in
