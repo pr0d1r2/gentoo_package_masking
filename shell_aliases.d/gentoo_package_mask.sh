@@ -62,6 +62,7 @@ function gentoo_package_mask() {
       echo "gentoo_package_mask '<$gentoo_package_mask_PACKAGE-$gentoo_package_mask_VERSION'" > $gentoo_package_mask_FILE || return $?
       ;;
   esac
+  git add $gentoo_package_mask_FILE || return $?
   local gentoo_package_mask_DIFF=`git --no-pager diff HEAD $gentoo_package_mask_FILE`
   case $gentoo_package_mask_DIFF in
     "")
@@ -69,7 +70,6 @@ function gentoo_package_mask() {
       ;;
     *)
       echo "$gentoo_package_mask_DIFF"
-      git add $gentoo_package_mask_FILE || return $?
       ;;
   esac
 }
