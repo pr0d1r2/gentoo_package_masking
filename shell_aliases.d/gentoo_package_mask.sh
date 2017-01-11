@@ -40,11 +40,11 @@ function gentoo_package_mask() {
       done
       return 0
       ;;
-    *Vulnerable\!*) # mask out packages that are still vulterable
+    *Vulnerable\!*) # mask out packages that are still vulnerable
       local gentoo_package_mask_PACKAGE=`echo $(echo $@ | tr "\n" ' ' | sed -e 's/Vulnerable!/*/g' | cut -f 1 -d '*' | cut -f 1 -d '<')`
       local gentoo_package_mask_VERSION=`echo $(echo $@ | tr "\n" ' ' | sed -e 's/Vulnerable!/*/g' | cut -f 1 -d '*' | cut -f 2 -d '<')`
       ;;
-    *\*\<*) # mask out packages that are still vulterable
+    *\*\<*) # mask out packages that are still vulnerable
       local gentoo_package_mask_PACKAGE=`echo $(echo $@ | tr "\n" ' ' | cut -f 1 -d '*')`
       local gentoo_package_mask_VERSION=""
       ;;
