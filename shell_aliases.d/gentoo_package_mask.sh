@@ -9,6 +9,10 @@
 # 3  mail-client/thunderbird      < 45.6.0                  >= 45.6.0
 # 4  mail-client/thunderbird-bin
 #                                 < 45.6.0                  >= 45.6.0"
+#
+# Or:
+#
+#gentoo_package_mask "www-apps/phpBB               < 3.1.10                 Vulnerable!"
 function gentoo_package_mask() {
   case $@ in
     1\ \ * | \ 1\ \ * | \ \ 1\ \ *)
@@ -35,6 +39,10 @@ function gentoo_package_mask() {
         esac
       done
       return 0
+      ;;
+    *Vulnerable\!*) # mask out packages that are still vulterable
+      local gentoo_package_mask_PACKAGE=`echo $(echo $@ | tr "\n" ' ' | sed -e 's/Vulnerable!/*/g' | cut -f 1 -d '*' | cut -f 1 -d '<')`
+      local gentoo_package_mask_VERSION=`echo $(echo $@ | tr "\n" ' ' | sed -e 's/Vulnerable!/*/g' | cut -f 1 -d '*' | cut -f 2 -d '<')`
       ;;
     *\*\<*) # mask out packages that are still vulterable
       local gentoo_package_mask_PACKAGE=`echo $(echo $@ | tr "\n" ' ' | cut -f 1 -d '*')`
