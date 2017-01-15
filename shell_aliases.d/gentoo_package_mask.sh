@@ -53,7 +53,7 @@ function gentoo_package_mask() {
       local gentoo_package_mask_VERSION=`echo $(echo $@ | tr "\n" ' ' | cut -f 2 -d '<' | cut -f 1 -d '>')`
       ;;
   esac
-  local gentoo_package_mask_FILE="$HOME/projects/gentoo_package_masking/masks.d/$gentoo_package_mask_PACKAGE.rb"
+  local gentoo_package_mask_FILE="$HOME/projects/gentoo_package_masking/recipes/$gentoo_package_mask_PACKAGE.rb"
   local gentoo_package_mask_DIR=`dirname $gentoo_package_mask_FILE`
   cd $HOME/projects/gentoo_package_masking || return $?
   if [ ! -d $gentoo_package_mask_DIR ]; then
@@ -78,6 +78,7 @@ function gentoo_package_mask() {
       ;;
     *)
       echo "$gentoo_package_mask_DIFF"
+      echorun gentoo_package_mask_recipe_refresh || return $?
       ;;
   esac
 }
