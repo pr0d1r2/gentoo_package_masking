@@ -1,6 +1,6 @@
 # gentoo_package_masking
 
-Masking of gentoo packages to support GLSA for security.
+Masking of Gentoo packages to support GLSA for security.
 Made in form of chef cookbook.
 
 ## Usage
