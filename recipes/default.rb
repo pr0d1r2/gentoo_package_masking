@@ -1,3 +1,4 @@
+include_recipe 'gentoo_package_masking::app-admin::ansible'
 include_recipe 'gentoo_package_masking::app-arch::libarchive'
 include_recipe 'gentoo_package_masking::app-arch::p7zip'
 include_recipe 'gentoo_package_masking::app-editors::gvim'
