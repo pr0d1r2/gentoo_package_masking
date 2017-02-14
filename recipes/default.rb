@@ -1,7 +1,3 @@
-directory '/etc/portage/package.mask'
-
-execute 'touch /etc/portage/package.mask/default'
-
 include_recipe 'gentoo_package_masking::app-admin__ansible'
 include_recipe 'gentoo_package_masking::app-admin__lsyncd'
 include_recipe 'gentoo_package_masking::app-arch__libarchive'
@@ -70,6 +66,7 @@ include_recipe 'gentoo_package_masking::net-libs__gnutls'
 include_recipe 'gentoo_package_masking::net-libs__libotr'
 include_recipe 'gentoo_package_masking::net-libs__libupnp'
 include_recipe 'gentoo_package_masking::net-libs__miniupnpc'
+include_recipe 'gentoo_package_masking::net-misc__openvpn'
 include_recipe 'gentoo_package_masking::net-misc__curl'
 include_recipe 'gentoo_package_masking::net-misc__memcached'
 include_recipe 'gentoo_package_masking::net-misc__openvswitch'
