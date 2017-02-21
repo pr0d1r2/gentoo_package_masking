@@ -1,1 +1,1 @@
-gentoo_package_mask '<www-client/firefox-45.6.0'
+gentoo_package_mask '<www-client/firefox-45.7.0'
