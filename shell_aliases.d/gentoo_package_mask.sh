@@ -15,7 +15,7 @@
 #gentoo_package_mask "www-apps/phpBB               < 3.1.10                 Vulnerable!"
 function gentoo_package_mask() {
   case $1 in
-    "*/*<*")
+    */*\<*)
       ;;
     *)
       echo "gentoo_package_mask: Invalid package: $@"
