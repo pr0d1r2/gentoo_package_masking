@@ -1,1 +1,1 @@
-gentoo_package_mask '<media-video/ffmpeg-2.8.10'
+gentoo_package_mask '<media-video/ffmpeg-3.2.4'
