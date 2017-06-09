@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-im/pidgin-2.11.0'
+gentoo_package_mask '<net-im/pidgin-2.12.0'
