@@ -1,6 +1,7 @@
 include_recipe 'gentoo_package_masking::app-admin__ansible'
 include_recipe 'gentoo_package_masking::app-admin__lsyncd'
 include_recipe 'gentoo_package_masking::app-admin__sudo'
+include_recipe 'gentoo_package_masking::app-arch__bzip2'
 include_recipe 'gentoo_package_masking::app-arch__libarchive'
 include_recipe 'gentoo_package_masking::app-arch__p7zip'
 include_recipe 'gentoo_package_masking::app-editors__gvim'
