@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-db/postgresql-9.5.4'
+gentoo_package_mask '<dev-db/postgresql-9.6.4'
