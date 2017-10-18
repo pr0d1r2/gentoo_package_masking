@@ -1,1 +1,1 @@
-gentoo_package_mask '<sys-apps/shadow-4.4-r2'
+gentoo_package_mask '<sys-apps/shadow-4.5'
