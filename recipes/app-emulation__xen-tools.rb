@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-emulation/xen-tools-4.7.2'
+gentoo_package_mask '<app-emulation/xen-tools-4.7.3'
