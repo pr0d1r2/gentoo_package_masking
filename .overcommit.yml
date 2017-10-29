@@ -1,0 +1,35 @@
+PreCommit:
+  ShellCheck:
+    enabled: true
+    on_warn: fail
+    env:
+      # Disable shebang checking (as we modularize all functions to be one per file)
+      SHELLCHECK_OPTS: '-e SC2148'
+  EnsureNoSortPipeUniq:
+    enabled: true
+    include:
+      - '**/*.sh'
+  EnsureNoFileExistRailsRootJoinInFiles:
+    enabled: true
+    include:
+      - '**/*.rb'
+  EnsureNoByebugInFiles:
+    enabled: true
+    include:
+      - '**/*.rb'
+  EnsureNoPluckIdInFiles:
+    enabled: true
+    include:
+      - '**/*.rb'
+  EnsureNoRedundantBlockMethodAttributesInFiles:
+    enabled: true
+    include:
+      - '**/*.rb'
+  WarnAboutSend:
+    enabled: true
+    include:
+      - '**/*.rb'
+  EnsureNoBindingPryInFiles:
+    enabled: true
+    include:
+      - '**/*.rb'
