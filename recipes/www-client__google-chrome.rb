@@ -1,1 +1,1 @@
-gentoo_package_mask '<www-client/google-chrome-63.0.3239.108'
+gentoo_package_mask '<www-client/google-chrome-64.0.3282.167'
