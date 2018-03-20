@@ -1,1 +1,1 @@
-gentoo_package_mask '<www-plugins/adobe-flash-27.0.0.187'
+gentoo_package_mask '<www-plugins/adobe-flash-29.0.0.113'
