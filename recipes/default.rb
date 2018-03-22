@@ -1,4 +1,5 @@
 include_recipe 'gentoo_package_masking::app-admin__ansible'
+include_recipe 'gentoo_package_masking::app-admin__collectd'
 include_recipe 'gentoo_package_masking::app-admin__kedpm'
 include_recipe 'gentoo_package_masking::app-admin__lsyncd'
 include_recipe 'gentoo_package_masking::app-admin__mcollective'
