@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-vcs/git-2.13.5'
+gentoo_package_mask '<dev-vcs/git-2.16.4'
