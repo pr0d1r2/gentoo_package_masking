@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-misc/wget-1.19.1-r2'
+gentoo_package_mask '<net-misc/wget-1.19.5'
