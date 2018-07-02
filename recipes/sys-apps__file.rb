@@ -1,1 +1,1 @@
-gentoo_package_mask '<sys-apps/file-5.32'
+gentoo_package_mask '<sys-apps/file-5.33-r2'
