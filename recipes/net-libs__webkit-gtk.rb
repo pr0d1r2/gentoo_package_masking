@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-libs/webkit-gtk-2.18.6'
+gentoo_package_mask '<net-libs/webkit-gtk-2.20.4'
