@@ -1,1 +1,1 @@
-gentoo_package_mask '<media-gfx/imagemagick-6.9.9.20'
+gentoo_package_mask '<media-gfx/imagemagick-7.0.8.10-r1'
