@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-db/couchdb-1.7.1'
+gentoo_package_mask '<dev-db/couchdb-2.1.3'
