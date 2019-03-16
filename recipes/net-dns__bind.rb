@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-dns/bind-9.11.1_p1'
+gentoo_package_mask '<net-dns/bind-9.12.1_p2-r1'
