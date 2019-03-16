@@ -1,1 +1,1 @@
-gentoo_package_mask '<sys-apps/systemd-239-r2'
+gentoo_package_mask '<sys-apps/systemd-239-r4'
