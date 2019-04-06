@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-emulation/xen-pvgrub-4.7.3'
+gentoo_package_mask '<app-emulation/xen-pvgrub-4.10.3-r2'
