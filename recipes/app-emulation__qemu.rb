@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-emulation/qemu-2.11.1-r1'
+gentoo_package_mask '<app-emulation/qemu-3.1.0-r4'
