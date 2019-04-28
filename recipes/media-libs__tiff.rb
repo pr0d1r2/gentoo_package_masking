@@ -1,1 +1,1 @@
-gentoo_package_mask '<media-libs/tiff-4.0.8'
+gentoo_package_mask '<media-libs/tiff-4.0.10'
