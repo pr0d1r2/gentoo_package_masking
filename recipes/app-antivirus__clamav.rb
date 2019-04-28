@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-antivirus/clamav-0.99.4'
+gentoo_package_mask '<app-antivirus/clamav-0.101.2'
