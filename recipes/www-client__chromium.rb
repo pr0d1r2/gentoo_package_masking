@@ -1,1 +1,1 @@
-gentoo_package_mask '<www-client/chromium-73.0.3683.75'
+gentoo_package_mask '<www-client/chromium-76.0.3809.100'
