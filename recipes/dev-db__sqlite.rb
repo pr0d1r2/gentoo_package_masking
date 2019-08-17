@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-db/sqlite-3.25.3'
+gentoo_package_mask '<dev-db/sqlite-3.28.0'
