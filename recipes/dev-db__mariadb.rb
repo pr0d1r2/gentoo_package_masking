@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-db/mariadb-10.0.30-r1'
+gentoo_package_mask '<dev-db/mariadb-10.2.22'

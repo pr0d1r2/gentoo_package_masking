@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-db/mysql-5.6.39'
+gentoo_package_mask '<dev-db/mysql-5.7.24'
