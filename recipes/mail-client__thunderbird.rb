@@ -1,1 +1,1 @@
-gentoo_package_mask '<mail-client/thunderbird-60.8.0'
+gentoo_package_mask '<mail-client/thunderbird-68.12.0'
