@@ -1,1 +1,1 @@
-gentoo_package_mask '<mail-mta/exim-4.92.2'
+gentoo_package_mask '<mail-mta/exim-4.92.3'
