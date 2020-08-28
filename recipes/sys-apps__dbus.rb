@@ -1,1 +1,1 @@
-gentoo_package_mask '<sys-apps/dbus-1.12.16'
+gentoo_package_mask '<sys-apps/dbus-1.12.18'
