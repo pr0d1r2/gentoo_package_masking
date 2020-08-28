@@ -1,1 +1,1 @@
-gentoo_package_mask '<sys-libs/glibc-2.28-r4'
+gentoo_package_mask '<sys-libs/glibc-2.30-r8'
