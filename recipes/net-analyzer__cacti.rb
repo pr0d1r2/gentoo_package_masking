@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-analyzer/cacti-1.1.20'
+gentoo_package_mask '<net-analyzer/cacti-1.2.13'
