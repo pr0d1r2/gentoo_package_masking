@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-libs/openssl-1.0.2t'
+gentoo_package_mask '<dev-libs/openssl-1.1.1g'
