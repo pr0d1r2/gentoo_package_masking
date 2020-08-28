@@ -1,1 +1,1 @@
-gentoo_package_mask '<kde-apps/okular-18.04.3-r1'
+gentoo_package_mask '<kde-apps/okular-19.12.3-r1'
