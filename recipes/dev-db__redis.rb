@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-db/redis-4.0.14'
+gentoo_package_mask '<dev-db/redis-5.0.9'
