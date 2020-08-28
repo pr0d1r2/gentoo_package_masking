@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-p2p/transmission-2.93'
+gentoo_package_mask '<net-p2p/transmission-3.00'
