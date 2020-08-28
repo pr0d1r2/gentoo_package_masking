@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-emulation/virtualbox-5.1.36'
+gentoo_package_mask '<app-emulation/virtualbox-6.1.2'
