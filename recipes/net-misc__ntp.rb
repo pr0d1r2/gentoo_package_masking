@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-misc/ntp-4.2.8_p13'
+gentoo_package_mask '<net-misc/ntp-4.2.8_p15'
