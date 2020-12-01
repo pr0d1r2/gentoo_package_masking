@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-vcs/fossil-2.4'
+gentoo_package_mask '<dev-vcs/fossil-2.12.1'
