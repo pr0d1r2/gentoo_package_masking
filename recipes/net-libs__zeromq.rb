@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-libs/zeromq-4.3.2'
+gentoo_package_mask '<net-libs/zeromq-4.3.3'
