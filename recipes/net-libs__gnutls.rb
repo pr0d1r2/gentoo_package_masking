@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-libs/gnutls-3.6.14'
+gentoo_package_mask '<net-libs/gnutls-3.6.15'
