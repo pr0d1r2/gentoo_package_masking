@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-qt/qtgui-5.14.2'
+gentoo_package_mask '<dev-qt/qtgui-5.14.2-r1'
