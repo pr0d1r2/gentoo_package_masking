@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-emulation/xen-4.12.3-r2'
+gentoo_package_mask '<app-emulation/xen-4.13.1-r3'
