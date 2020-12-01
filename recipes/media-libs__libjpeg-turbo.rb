@@ -1,1 +1,1 @@
-gentoo_package_mask '<media-libs/libjpeg-turbo-1.5.0'
+gentoo_package_mask '<media-libs/libjpeg-turbo-2.0.4-r1'
