@@ -1,1 +1,1 @@
-gentoo_package_mask '<kde-apps/ark-20.04.3-r1'
+gentoo_package_mask '<kde-apps/ark-20.04.3-r2'
