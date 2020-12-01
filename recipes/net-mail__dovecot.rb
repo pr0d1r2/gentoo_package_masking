@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-mail/dovecot-2.3.5.1'
+gentoo_package_mask '<net-mail/dovecot-2.3.11.3'
