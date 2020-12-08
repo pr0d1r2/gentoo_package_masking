@@ -1,1 +1,1 @@
-gentoo_package_mask '<www-client/seamonkey-2.46-r1'
+gentoo_package_mask '<www-client/seamonkey-2.53.5.1'
