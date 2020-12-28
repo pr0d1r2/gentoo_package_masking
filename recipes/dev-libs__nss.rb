@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-libs/nss-3.55'
+gentoo_package_mask '<dev-libs/nss-3.58'
