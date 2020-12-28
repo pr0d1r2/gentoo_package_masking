@@ -1,1 +1,1 @@
-gentoo_package_mask '<www-client/firefox-83'
+gentoo_package_mask '<www-client/firefox-84.0'
