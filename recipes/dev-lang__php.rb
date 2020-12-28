@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-lang/php-7.4.9'
+gentoo_package_mask '<dev-lang/php-8.0.0'
