@@ -1,1 +1,1 @@
-gentoo_package_mask '<mail-client/mutt-2.0.2'
+gentoo_package_mask '<mail-client/mutt-2.0.4-r1'
