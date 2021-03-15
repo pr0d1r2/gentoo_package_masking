@@ -1,1 +1,1 @@
-gentoo_package_mask '<net-dns/dnsmasq-2.78'
+gentoo_package_mask '<net-dns/dnsmasq-2.83'
