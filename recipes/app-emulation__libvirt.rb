@@ -1,1 +1,1 @@
-gentoo_package_mask '<app-emulation/libvirt-4.1.0'
+gentoo_package_mask '<app-emulation/libvirt-6.7.0'
