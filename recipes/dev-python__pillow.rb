@@ -1,1 +1,1 @@
-gentoo_package_mask '<dev-python/pillow-3.4.2'
+gentoo_package_mask '<dev-python/pillow-8.1.0'
