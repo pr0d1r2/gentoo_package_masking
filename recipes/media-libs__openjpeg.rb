@@ -1,1 +1,1 @@
-gentoo_package_mask '<media-libs/openjpeg-2.3.0:2'
+gentoo_package_mask '<media-libs/openjpeg-2.4.0:2'
